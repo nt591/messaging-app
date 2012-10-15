@@ -29,7 +29,7 @@ end
 class Message
   
   # TODO: Use this class as a table in the database
-  include Datamapper::Resource
+  include DataMapper::Resource
 
   property :id, Serial
   property :body, Text
