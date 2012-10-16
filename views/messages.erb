@@ -30,6 +30,9 @@
         
         <!-- TODO: Add messages to page -->
         <% @messages.each do |m| %>
+          <div class="time">
+            <div><%= m.created_at %></div>
+          </div>
           <div class="text receive">
             <div class="reflect"></div>
             <p><%= m.body %></p>
